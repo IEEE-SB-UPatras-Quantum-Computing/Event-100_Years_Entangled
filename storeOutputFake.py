@@ -2,7 +2,7 @@
 from random import randint
 
 FILE_NAME = "data.txt"
-SIZE = 100_000
+SIZE = 100#_000
 
 with open(FILE_NAME, 'w') as f:
     for _ in range(SIZE):
