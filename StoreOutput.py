@@ -9,7 +9,7 @@ portlist=[]
 for onePort in ports:
     portlist.append(str(onePort))
     print(str(onePort))
-    print(portlist)
+print(portlist)
 
 
 importVal= input("Select port: COM")
